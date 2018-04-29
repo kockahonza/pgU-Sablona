@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="honza-xps" id="0" name="CSVTemplaterTest" package="" skipped="0" tests="2" time="0.045" timestamp="2018-04-29T18:37:00">
+  <testsuite errors="0" failures="0" hostname="honza-xps" id="0" name="CSVTemplaterTest" package="" skipped="0" tests="2" time="0.04" timestamp="2018-04-29T19:00:27">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -100,7 +100,7 @@
 
           <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junittestcases2534826937476538001.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.xml crashfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junitvmwatcher6182599004283778186.properties propsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junit7967154080048109114.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junittestcases1895119898183371510.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.xml crashfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junitvmwatcher8982508317406918687.properties propsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junit7314501660123970590.properties" />
 
           <property name="java.class.path" value="/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/lib/junit.jar:/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/main:/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/test:/usr/share/java/junit-4.12.jar:/usr/share/java/apache-ant/ant-launcher.jar:/usr/share/apache-ant/lib/ant.jar:/usr/share/apache-ant/lib/ant-junit.jar:/usr/share/apache-ant/lib/ant-junit4.jar" />
 
@@ -150,16 +150,16 @@
 
       </properties>
 
-      <testcase classname="CSVTemplaterTest" name="CSVTemplaterRecursiveInput" time="0.005" />
+      <testcase classname="CSVTemplaterTest" name="CSVTemplaterRecursiveInput" time="0.003" />
 
-      <testcase classname="CSVTemplaterTest" name="CSVTemplaterSimpleInput" time="0.0" />
+      <testcase classname="CSVTemplaterTest" name="CSVTemplaterSimpleInput" time="0.001" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="honza-xps" id="1" name="TemplaterTest" package="" skipped="0" tests="2" time="0.005" timestamp="2018-04-29T18:37:00">
+  <testsuite errors="0" failures="1" hostname="honza-xps" id="1" name="TemplaterTest" package="" skipped="0" tests="3" time="0.011" timestamp="2018-04-29T19:00:27">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -259,7 +259,7 @@
 
           <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junittestcases2534826937476538001.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.xml crashfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junitvmwatcher6182599004283778186.properties propsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junit7967154080048109114.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junittestcases1895119898183371510.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.xml crashfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junitvmwatcher8982508317406918687.properties propsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junit7314501660123970590.properties" />
 
           <property name="java.class.path" value="/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/lib/junit.jar:/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/main:/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/test:/usr/share/java/junit-4.12.jar:/usr/share/java/apache-ant/ant-launcher.jar:/usr/share/apache-ant/lib/ant.jar:/usr/share/apache-ant/lib/ant-junit.jar:/usr/share/apache-ant/lib/ant-junit4.jar" />
 
@@ -308,6 +308,13 @@
           <property name="ant.project.invoked-targets" value="test" />
 
       </properties>
+
+      <testcase classname="TemplaterTest" name="IntentionallyWrong" time="0.004">
+          <failure message="expected:&lt;1&gt; but was:&lt;2&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;1&gt; but was:&lt;2&gt;
+	at TemplaterTest.IntentionallyWrong(TemplaterTest.java:26)
+</failure>
+
+      </testcase>
 
       <testcase classname="TemplaterTest" name="TemplaterRecursiveInput" time="0.001" />
 

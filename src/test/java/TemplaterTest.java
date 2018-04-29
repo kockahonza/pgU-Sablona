@@ -21,4 +21,8 @@ public class TemplaterTest {
 		context.put("age", "18");
 		assertEquals("{{name18}}", Temp.render(context));
 	}
+	@Test
+	public void IntentionallyWrong() {
+		assertEquals(1, 2);
+	}
 }
