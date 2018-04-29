@@ -1,8 +1,5 @@
 language: java
-os:
-	- linux
-before_install:
-	- sudo apt-get install ant-optional
+install: ant deps
 script:
 	- ant compile
 	- ant jar
