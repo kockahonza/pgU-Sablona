@@ -94,7 +94,7 @@
 		depends="compile,compile-test"
 		description="Run JUnit tests.">
 		<mkdir dir="${test.results.dir}"/>
-		<junit printsummary="yes" haltonfailure="no" fork="true" forkmode="once">
+		<junit printsummary="yes" haltonfailure="no" failureproperty="junit.failed" fork="true" forkmode="once">
 			<classpath>
 				<fileset dir="${lib.dir}" includes="*.jar" />
 				<pathelement path="${main.build.dir}" />
@@ -114,6 +114,7 @@
 			</fileset>
 			<report format="frames" todir="${test.results.dir}/html"/>
 		</junitreport>
+		<fail message="Some tests failed." if="junit.failed">
 	</target>
 
 	<target name="clean"
