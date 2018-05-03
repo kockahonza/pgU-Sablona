@@ -114,7 +114,7 @@
 			</fileset>
 			<report format="frames" todir="${test.results.dir}/html"/>
 		</junitreport>
-		<fail message="Some tests failed." if="junit.failed">
+		<fail message="Some tests failed." if="junit.failed"/>
 	</target>
 
 	<target name="clean"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="honza-xps" name="CSVTemplaterTest" skipped="0" tests="2" time="0.04" timestamp="2018-04-29T19:00:27">
+<testsuite errors="0" failures="0" hostname="honza-xps" name="CSVTemplaterTest" skipped="0" tests="2" time="0.043" timestamp="2018-05-03T12:49:48">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/lib" />
@@ -34,7 +34,7 @@
     <property name="java.home" value="/usr/lib/jvm/java-8-openjdk/jre" />
     <property name="java.vm.info" value="mixed mode" />
     <property name="ant.file" value="/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/build.xml" />
-    <property name="os.version" value="4.16.4-1-ARCH" />
+    <property name="os.version" value="4.16.5-1-ARCH" />
     <property name="path.separator" value=":" />
     <property name="test.results.dir" value="/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results" />
     <property name="java.vm.version" value="25.172-b11" />
@@ -50,7 +50,7 @@
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junittestcases1895119898183371510.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.xml crashfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junitvmwatcher8982508317406918687.properties propsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junit7314501660123970590.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junittestcases3944882492151313590.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/tests-results/IGNORETHIS.xml crashfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junitvmwatcher4613119689493163646.properties propsfile=/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/junit951861602775349539.properties" />
     <property name="java.class.path" value="/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/lib/junit.jar:/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/main:/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/target/test:/usr/share/java/junit-4.12.jar:/usr/share/java/apache-ant/ant-launcher.jar:/usr/share/apache-ant/lib/ant.jar:/usr/share/apache-ant/lib/ant-junit.jar:/usr/share/apache-ant/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 24 2016" />
     <property name="java.test.src.dir" value="/home/honza/Projects/HotLes/DruhaPololetniPrace/pgU-Sablona/src/test/java" />
@@ -75,8 +75,8 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="test" />
   </properties>
-  <testcase classname="CSVTemplaterTest" name="CSVTemplaterRecursiveInput" time="0.003" />
-  <testcase classname="CSVTemplaterTest" name="CSVTemplaterSimpleInput" time="0.001" />
+  <testcase classname="CSVTemplaterTest" name="CSVTemplaterRecursiveInput" time="0.002" />
+  <testcase classname="CSVTemplaterTest" name="CSVTemplaterSimpleInput" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
