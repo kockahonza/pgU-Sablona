@@ -1,4 +1,4 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 import org.junit.Test;
 
 import java.util.*;
@@ -22,7 +22,11 @@ public class TemplaterTest {
 		assertEquals("{{name18}}", Temp.render(context));
 	}
 	@Test
-	public void IntentionallyWrong() {
-		assertEquals(1, 2);
+	public void TemplaterCyclonicRiftageInput() {
+		Templater Temp = new Templater("{{var1}} {{var2}} {{{{var1}}}} {{{{val2}}}}");
+		HashMap<String,  String> context = new HashMap<String, String>();
+		context.put("val1", "val2");
+		context.put("var1", "val1");
+		assertFalse(Temp.render(context) == "val1 val2 val2 {{val2}}");
 	}
 }

@@ -12,7 +12,7 @@ public class Templater {
 	public String render(HashMap<String, String> context) {
 		String outString = templateString;
 		for (String key: context.keySet()) {
-			outString = outString.replaceAll("\\{\\{[ ]*" + key + "[ ]*\\}\\}", context.get(key));
+			outString = outString.replaceAll("\\{\\{[ \t]*" + key + "[ \t]*\\}\\}", context.get(key));
 		}
 		return outString;
 	}
