@@ -89,7 +89,6 @@
 		</javac>
 	</target>
 
-	<!-- ALMOST DONE - SEMI USABLE - STILL NEEDS TO BE COMPLETED -->
 	<target name="test"
 		depends="compile,compile-test"
 		description="Run JUnit tests.">
